@@ -20,31 +20,29 @@ How to Use Github
 
 1. create an account several years ago
 2. use it once for a class and never really do anything with it for a couple years
-3. take a class where you actually NEED to use it
-4. dust off the cobwebs
-5. change your email BACK to your student id
+3. change your username to a personal alias in case you do use
+4. take a class where you actually NEED to use it
+5. dust off the cobwebs
+6. change your username BACK to your student id
   - as long as you make your stuff private you'll probably be fine
-6. create a <b>repository</b>; it's like an online "project" folder
-7. add your project files to it
-
-How to Use Git
-
-1. download the git installer (https://git-scm.com/downloads)
-2. you'll be asked to configure some things while installing. if you're not sure just click next
-3. ??????????
+7. create a <b>repository</b>; it's like an online "project" folder
+8. add your relevant project files to it
 
 <u>Glossary</u>
 
 GIT - 
 Github - you're already here
-Repository - essentially a Github project
-Commit - changes made to a file in a repository
-Push - fancy developer word for release
-Clone - a duplicate of an existing repository
+Repository - essentially a Git/Github project, sometimes shortened to "repo"
+Remote - connections to other repositories, sort of like a bookmark only it uses an alias to reference them rather than linking to them directly
+Commit - a package changes made to a file in a repository
+Push - sending a commit to Github 
 Branch - a deviation of an existing repository
-Fork - an extension of an existing repository
-Pull - integrating a branch with the main repository
-Merge - 
+Clone - a duplicate of an existing repository
+Fork - an edited clone of an existing repository
+Pull - updating an existing repository to match a remote repo, usually you need to make a pull request to do that
+Merge - integrating a branch into the main repository
 Merge Conflict - issues when merging
-Fetch - 
-Remote - 
+Fetch - downloading a remote repo into an existing repo
+
+References
+https://www.atlassian.com/git/tutorials/syncing
