@@ -16,15 +16,15 @@ for IS 117
 10. click activate. you're good for a year but they'll send you an email to renew when it's about to expire
 11. click continue to open webstorm for REAL
 
-<i><u>How to Use Git/GitHub</u></i>
+<i><u>How to Use Git/u></i>
 
-0-1. create an account for a class you took several years ago
-0-2. use it once, and only once, in those several years
-0-3. take a class where you actually NEED to use it
+0-1. create an account for a class you took several years ago<br>
+0-2. use it once, and only once, in those several years<br>
+0-3. take a class where you actually NEED to use it<br>
 0-4. dust off the cobwebs
 
 1 (REAL). create a <b>repository</b>; it's like an online "project" folder
-2. copy the repository to your local network/computer
+2. copy the repository to your local network/computer -- this is called <b>cloning</b>
 3. add your other relevant project files to it
 4. <b>push</b> it to github, either as a <b>commit</b> or a <b>branch</b> of the central repository (the latter requires starting a <b>pull</b> request)
 
@@ -34,7 +34,7 @@ for IS 117
 - GitHub - the website where central git repositories are stored, shared, and distributed -- you're already here
 - Repository - essentially a Git/Github project, sometimes shortened to "repo"
 - Remote - connections to other repositories, sort of like a bookmark only it uses an alias to reference them rather than linking to them directly
-- Commit - a package changes made to a file in a repository
+- Commit - a package of changes made to a file in a repository
 - Push - sending a commit to Github 
 - Branch - a deviation of an existing repository
 - Clone - a duplicate of an existing repository that is downloaded to your local system
