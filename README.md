@@ -1,36 +1,39 @@
 # A03
-for IS 117
+*for IS 117*
 
-<i><u>How to Use Git</u></i>
+<u>How to Use Git</u>
+1. Create a **repository**
+2. Copy the repository to your local network/computer -- this is called **cloning**
+3. Open the repository in webstorm or whatever IDE you're using (you can do this directly from github's desktop app)
+4. Change and add files in the repository as you will (these changes are called **commits**)
+   - Think *'Ctrl+S'* or saving changes an actual file, only with extra steps.
+5. (optional) Create a **branch** of the central repository with all your commits bundled into it
+   - It's easier to do this in GitHub, but if you're doing it from the browser it also requires starting a **pull** request to **merge** your branch into the repository.
+   - If commits are like a *"Save..."* command, branches are somewhat like the less common *"Save New Version"*, except you can merge the new version into the original when you're ready to do so. Like a temporary copy, maybe.
+6. **Push** your commits to the remote repository (in our case, it's here on GitHub)
+   - Apparently GitHub has a desktop app so you can clone and push changes to the remote repo. The only thing it can't really do (I don't think) is edit them directly.
 
-0-1. create an account for a class you took several years ago<br>
-0-2. use it once, and only once, in those several years<br>
-0-3. take a class where you actually NEED to use it<br>
-0-4. dust off the cobwebs
+<u>Glossary</u>
 
-1 (REAL). create a <b>repository</b>; it's like an online "project" folder
-2. copy the repository to your local network/computer -- this is called <b>cloning</b>
-   - apparently github has a desktop app so you can use that to clone it but not to edit it
-3. open the repository in webstorm (you can do this directly from the desktop app)
-4. change and add files in the repository as you will (these changes are called **commits**)
-5. <b>push</b> your commits to github, either as a <b>commit</b> or a <b>branch</b> of the central repository (the latter requires starting a <b>pull</b> request)
+- **GIT** - A free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency (description on the official website, https://git-scm.com/)
+- **GitHub** - The website where central/remote git repositories are stored, shared, and distributed -- you're already here!
+- **Repository** - Essentially a Git/Github project folder with all sorts of files inside, sometimes shortened to "repo"
+- **Clone** - A duplicate of an existing repository that is downloaded to your local system
+- **Remote** - Connections to other repositories on the server (e.g. GitHub) that you can reference with an alias to rather than a direct link
+- **Commit** - A package of changes made to a file in a repository
+- **Push** - Sending a commit to a remote repository.
+- **Branch** - S deviation of an existing repository. these are especially common when a repository has multiple collaborators making multiple commits to the same repo
+- **Fork** - A clone of an existing repository on github that you can edit without affecting the original (or "upstream") repository. you can start a pull request to merge it with the upstream repo
+  - commit = *"Save"*, branch = *"Save New Version"*, fork = *"Save As/Duplicate"*
+- **Pull** - Merging a remote repository into your local repository, as if you were 'downloading' any changes made -- on github you need to make a pull request to do that
+- **Merge** - Integrating a branch into the main repository
+- **Merge Conflict** - merging branches with different commits and you need to decide which commits will be pushed
+- **Fetch** - Downloading a remote repo into a local repo, without affecting the former
+  - Basically a reverse fork
 
-<i><u>Glossary</u></i>
+<u>References</u>
 
-- **GIT** - a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency (description on official website, https://git-scm.com/)
-- **GitHub** - the website where central git repositories are stored, shared, and distributed -- you're already here
-- **Repository** - essentially a Git/Github project, sometimes shortened to "repo"
-- **Remote** - connections to other repositories, sort of like a bookmark only it uses an alias to reference them rather than linking to them directly
-- **Commit** - a package of changes made to a file in a repository
-- **Push** - sending a commit to Github 
-- **Branch** - a deviation of an existing repository
-- **Clone** - a duplicate of an existing repository that is downloaded to your local system
-- **Fork** - an edited clone of an existing repository
-- **Pull** - updating an existing repository to match a remote repo, usually you need to make a pull request to do that
-- **Merge** - integrating a branch into the main repository
-- **Merge Conflict** - issues when merging
-- **Fetch** - downloading a remote repo into an existing repo
-
-<i>References</i>
 - https://git-scm.com/
-- https://www.atlassian.com/git/tutorials/syncing
+- https://docs.github.com/en/
+- https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud
+- https://www.git-tower.com/learn/git/faq/difference-between-git-fetch-git-pull/
